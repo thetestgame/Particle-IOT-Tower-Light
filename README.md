@@ -19,7 +19,7 @@ Set the feed value to "" to disable the feed.
 * mqttYellowLightFeed - Controls the yellow light pin
 * mqttGreenLightFeed - Controls the green light pin
 * mqttBuzzerFeed - Controls the buzzer pin
-* mqttPowerFeed - Controls the "power" of the device. Sending to the "OFF" will prevent the lights from turning on until "ON" is sent (Not currently implemented)
+* mqttPowerFeed - Controls the "power" of the device. Sending "OFF" to the feed will prevent the lights from turning on until "ON" is sent (Not currently implemented)
 
 <hr/>
 ### Particle Cloud
