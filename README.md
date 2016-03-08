@@ -6,16 +6,24 @@ Tower Light IOT controller based around the Particle Photon. This firmware was v
 ### Supported Services
 * MQTT
 * Particle Cloud (Restful and Subscription events)
-* <a href="http://www.blynk.cc/">Blynk (Not complete)</a>
-
 <hr/>
+
+### Dependencies
+ * <a href="https://github.com/hirotakaster/MQTT">MQTT</a>
+<hr/>
+
 ### MQTT
-<b>More documentation will be added later!<b/>
+<b>All feeds respond to the values "ON" for enable and "OFF" for disable</b><br/>
+Set the feed value to "" to disable the feed.
+* mqttRedLightFeed - Controls the red light pin
+* mqttYellowLightFeed - Controls the yellow light pin
+* mqttGreenLightFeed - Controls the green light pin
+* mqttBuzzerFeed - Controls the buzzer pin
+* mqttPowerFeed - Controls the "power" of the device. Sending to the "OFF" will prevent the lights from turning on until "ON" is sent (Not currently implemented)
 
 <hr/>
 ### Particle Cloud
 <b>More documentation will be added later!<b/>
-
 <hr/>
 
 ### License
