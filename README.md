@@ -1,6 +1,6 @@
 # Particle-IOT-Tower-Light
 <b>V. 1.0.0</b><br/>
-Tower Light IOT controller based around the Particle Photon. This firmware was very quickly put together and may not be the most efficent software available but it gets the job done. It was designed for the <a href="https://www.adafruit.com/products/2993">Tower Light - Red Yellow Green Alert Light with Buzzer</a> from <a href="adafruit.com">Adafruit</a>.
+Tower Light IOT controller based around the Particle Photon. Designed for the <a href="https://www.adafruit.com/products/2993">Tower Light - Red Yellow Green Alert Light with Buzzer</a> from <a href="adafruit.com">Adafruit</a>.
 
 <hr/>
 ### Supported Services
