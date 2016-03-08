@@ -6,10 +6,12 @@ Tower Light IOT controller based around the Particle Photon. Designed for the <a
 ### Supported Services
 * MQTT
 * Particle Cloud (Restful and Subscription events)
+
 <hr/>
 
 ### Dependencies
  * <a href="https://github.com/hirotakaster/MQTT">MQTT</a>
+
 <hr/>
 
 ### MQTT
